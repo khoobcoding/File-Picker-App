@@ -1,0 +1,26 @@
+------------------------- Android  Device Permission -------------------------
+Go to  android\app\src\main\AndroidManifest.xml
+
+ *  Paste these lines below  package  statement
+
+ <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+  ------------------------- IOS  Device Permission  -------------------------
+ Go to  ios/Runner/Info.plist
+
+*  Paste these lines in between <dict> <dict>
+
+    <key>UIBackgroundModes</key>
+    <array>
+       <string>fetch</string>
+       <string>remote-notification</string>
+    </array>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>Explain why your app uses music</string>
+    <key>UISupportsDocumentBrowser</key>
+    <true/>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Explain why your app uses photo library</string>
