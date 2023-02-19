@@ -1,3 +1,5 @@
+
+
 ------------------------- Android  Device Permission -------------------------
 Go to  android\app\src\main\AndroidManifest.xml
 
@@ -24,3 +26,10 @@ Go to  android\app\src\main\AndroidManifest.xml
     <true/>
     <key>NSPhotoLibraryUsageDescription</key>
     <string>Explain why your app uses photo library</string>
+
+
+
+
+
+
+
