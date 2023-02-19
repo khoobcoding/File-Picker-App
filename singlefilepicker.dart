@@ -1,3 +1,8 @@
+dependencies:
+  file_picker: ^5.2.5
+  open_app_file: ^4.0.1 // ADD this package in your Flutter Project 
+                       // AAD the required permissions in your Flutter project
+
 import 'package:demo/multiplefilepicker.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:open_app_file/open_app_file.dart';
